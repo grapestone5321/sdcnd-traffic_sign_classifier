@@ -49,7 +49,7 @@ signs data set:
 * The size of the validation set is ?
 * The size of test set is 12630
 * The shape of a traffic sign image is (32, 32, 3)
-* The number of unique classes/labels in the data set is ?
+* The number of unique classes/labels in the data set is 43
 
 Number of training examples = 34799
 Number of testing examples = 12630
