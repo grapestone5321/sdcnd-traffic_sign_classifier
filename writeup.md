@@ -44,7 +44,7 @@ You're reading it! and here is a link to my [project code](https://github.com/gr
 
 #### 1. Provide a basic summary of the data set. In the code, the analysis should be done using python, numpy and/or pandas methods rather than hardcoding results manually.
 
-I used the pandas library to calculate summary statistics of the traffic
+I used the numpy library to calculate summary statistics of the traffic
 signs data set:
 
 * The size of training set is 34799
@@ -53,10 +53,6 @@ signs data set:
 * The shape of a traffic sign image is (32, 32, 3)
 * The number of unique classes/labels in the data set is 43
 
-Number of training examples = 34799
-Number of testing examples = 12630
-Image data shape = (32, 32, 3)
-Number of classes = 43
 
 
 
