@@ -70,23 +70,7 @@ Here is an exploratory visualization of the data set. It is a bar chart showing 
 
 As a first step, I decided to shuffle the training data otherwise the ordering of the data might have a huge effect on how well the network trends.
 
-As a first step, I decided to convert the images to grayscale because ...
-
-Here is an example of a traffic sign image before and after grayscaling.
-
-![alt text][image2]
-
-As a last step, I normalized the image data because ...
-
-I decided to generate additional data because ... 
-
-To add more data to the the data set, I used the following techniques because ... 
-
-Here is an example of an original image and an augmented image:
-
-![alt text][image3]
-
-The difference between the original data set and the augmented data set is the following ... 
+As a last step, I normalized the image data because normalization helps the nerwork converge.
 
 
 #### 2. Describe what your final model architecture looks like including model type, layers, layer sizes, connectivity, etc.) Consider including a diagram and/or table describing the final model.
