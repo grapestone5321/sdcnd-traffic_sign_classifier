@@ -130,7 +130,7 @@ Here are the results of the prediction:
 |:---------------------:|:---------------------------------------------:| 
 | Stop Sign      		| End of all speed and passing limits  									| 
 | U-turn     			| U-turn 										|
-| Yield					| Yield											|
+| Keep right				| Yield											|
 | 100 km/h	      		| Bumpy Road					 				|
 | Slippery Road			| Slippery Road      							|
 
