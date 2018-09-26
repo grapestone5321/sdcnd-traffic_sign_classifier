@@ -1,4 +1,4 @@
-# **Traffic Sign Recognition** 
+[image10]: ./images/writeup_1.jpg "Visualization"# **Traffic Sign Recognition** 
 
 ## Writeup
 
@@ -31,6 +31,12 @@ The goals / steps of this project are the following:
 [image8]: ./examples/placeholder.png "Traffic Sign 5"
 
 [image10]: ./images/writeup_1.jpg "Visualization"
+[image11]: ./new_signs/imsge_1.jpg "Visualization"
+[image12]: ./new_signs/imsge_2.jpg "Visualization"
+[image13]: ./new_signs/imsge_3.jpg "Visualization"
+[image14]: ./new_signs/imsge_4.jpg "Visualization"
+[image15]: ./new_signs/imsge_5.jpg "Visualization"
+
 
 
 ## Rubric Points
@@ -73,7 +79,6 @@ As a first step, I decided to shuffle the training data otherwise the ordering o
 
 As a last step, I normalized the image data because normalization helps the nerwork converge.
 
-
 #### 2. Describe what your final model architecture looks like including model type, layers, layer sizes, connectivity, etc.) Consider including a diagram and/or table describing the final model.
 
 My final model consisted of the following layers:
@@ -83,8 +88,7 @@ My final model consisted of the following layers:
 | Input         		| 32x32x3 RGB image   							| 
 | Convolution 1     	| 1x1 stride, VALID padding, outputs 28x28x6 	|
 | RELU					|												|
-| Max pooling	      	| 2x2 stride, VALID padding, output = 14x14x6				|
-| Convolution 2	    | 1x1 stride, VALID padding, output = 10x10x16  	|
+| Max pooling	      	| 2x2 stride, VALID padding, output = 14x14x6				|| Convolution 2	    | 1x1 stride, VALID padding, output = 10x10x16  	|
 | RELU		|       									|
 | Max pooling				| 2x2 stride, VALID padding, output = 5x5x16						|
 |	Flatten	|			output = 400								|
@@ -114,8 +118,8 @@ My final model results was validation set accuracy of 0.95.
 
 Here are five German traffic signs that I found on the web:
 
-![alt text][image4] ![alt text][image5] ![alt text][image6] 
-![alt text][image7] ![alt text][image8]
+![alt text][image11] ![alt text][image12] ![alt text][image13] 
+![alt text][image13] ![alt text][image15]
 
 The first image might be difficult to classify because ...
 
