@@ -118,7 +118,7 @@ My final model results was validation set accuracy of 0.95.
 Here are five German traffic signs that I found on the web:
 
 ![alt text][image11] ![alt text][image12] ![alt text][image13] 
-![alt text][image13] ![alt text][image15]
+![alt text][image14] ![alt text][image15]
 
 The first image might be difficult to classify because ...
 
