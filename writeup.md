@@ -129,10 +129,10 @@ Here are the results of the prediction:
 | Image			        |     Prediction	        					| 
 |:---------------------:|:---------------------------------------------:| 
 | Stop     		| End of all speed and passing limits  									| 
-| No entry     			| U-turn 										|
-| Keep right				| Yield											|
-| Yield	      		| Bumpy Road					 				|
-| Priority road			| Slippery Road      							|
+| Yield     			| Speed limit (70km/h) 										|
+| Keep right				| No entry										|
+| No entry      		| Turn left ahead					 				|
+| Priority road			| Road work     							|
 
 
 The model was able to correctly guess 4 of the 5 traffic signs, which gives an accuracy of 80%. This compares favorably to the accuracy on the test set of ...
