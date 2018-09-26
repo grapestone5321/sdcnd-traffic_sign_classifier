@@ -1,4 +1,4 @@
-[image10]: ./images/writeup_1.jpg "Visualization"# **Traffic Sign Recognition** 
+# **Traffic Sign Recognition**
 
 ## Writeup
 
@@ -13,8 +13,7 @@ The goals / steps of this project are the following:
 * Explore, summarize and visualize the data set
 * Design, train and test a model architecture
 * Use the model to make predictions on new images
-* Analyze the softmax probabilities of the new images
-* Summarize the results with a written report
+* Analyze the softmax probabilities of the new images* Summarize the results with a written report
 
 
 
@@ -31,11 +30,11 @@ The goals / steps of this project are the following:
 [image8]: ./examples/placeholder.png "Traffic Sign 5"
 
 [image10]: ./images/writeup_1.jpg "Visualization"
-[image11]: ./new_signs/imsge_1.jpg "Visualization"
-[image12]: ./new_signs/imsge_2.jpg "Visualization"
-[image13]: ./new_signs/imsge_3.jpg "Visualization"
-[image14]: ./new_signs/imsge_4.jpg "Visualization"
-[image15]: ./new_signs/imsge_5.jpg "Visualization"
+[image11]: ./new_signs/image_1.jpg "Visualization"
+[image12]: ./new_signs/image_2.jpg "Visualization"
+[image13]: ./new_signs/image_3.jpg "Visualization"
+[image14]: ./new_signs/image_4.jpg "Visualization"
+[image15]: ./new_signs/image_5.jpg "Visualization"
 
 
 
