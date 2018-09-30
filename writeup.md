@@ -112,7 +112,6 @@ To train the model, I used an AdamOptimizer, 20 EPOCHS, BATCH_SIZE of 128, and l
 My final model results was validation set accuracy of 0.95.
 
 ### Test a Model on New Images
-
 #### 1. Choose five German traffic signs found on the web and provide them in the report. For each image, discuss what quality or qualities might be difficult to classify.
 
 Here are five German traffic signs that I found on the web:
@@ -152,7 +151,7 @@ For the first image, the model is relatively sure that this is a stop sign (prob
 | .01				    | Slippery Road      							|
 
 
-For the second image, ... 
+For the second image,  
 
 ### (Optional) Visualizing the Neural Network (See Step 4 of the Ipython notebook for more details)
 #### 1. Discuss the visual output of your trained network's feature maps. What characteristics did the neural network use to make classifications?
