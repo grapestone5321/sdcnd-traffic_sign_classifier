@@ -100,7 +100,6 @@ My final model consisted of the following layers:
 
 
 
-
 #### 3. Describe how you trained your model. The discussion can include the type of optimizer, the batch size, number of epochs and any hyperparameters such as learning rate.
 
 To train the model, I used an AdamOptimizer, 20 EPOCHS, BATCH_SIZE of 128, and learning rate of 0.001.
@@ -144,7 +143,7 @@ For the first image, the model is relatively sure that this is a stop sign (prob
 
 | Probability         	|     Prediction	        					| 
 |:---------------------:|:---------------------------------------------:| 
-| .60         			| Stop sign   									| 
+| .6        			| Stop sign   									| 
 | .20     				| U-turn 										|
 | .05					| Yield											|
 | .04	      			| Bumpy Road					 				|
