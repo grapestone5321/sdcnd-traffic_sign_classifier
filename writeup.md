@@ -116,9 +116,11 @@ My final model results was validation set accuracy of 0.957.
 Here are five German traffic signs that I found on the web:
 
 ![alt text][image11] ![alt text][image12] ![alt text][image13] 
+
 ![alt text][image14] ![alt text][image15]
 
 The first image might be difficult to classify because .
+
 
 #### 2. Discuss the model's predictions on these new traffic signs and compare the results to predicting on the test set. At a minimum, discuss what the predictions were, the accuracy on these new predictions, and compare the accuracy to the accuracy on the test set (OPTIONAL: Discuss the results in more detail as described in the "Stand Out Suggestions" part of the rubric).
 
@@ -130,7 +132,9 @@ Here are the results of the prediction:
 | Yield     			| Speed limit (70km/h) 										|
 | Keep right				| No entry										|
 | No entry      		| Turn left ahead					 				|
+
 | Priority road			| Road work     							|
+
 
 
 The model was able to correctly guess 1 of the 5 traffic signs, which gives an accuracy of 20%. This compares favorably to the accuracy on the test set of.
@@ -139,13 +143,16 @@ The model was able to correctly guess 1 of the 5 traffic signs, which gives an a
 
 The code for making predictions on my final model is located in the 11th cell of the Ipython notebook.
 
+
 For the first image, the model is relatively sure that this is a stop sign (probability of 0.6), and the image does contain a stop sign. The top five soft max probabilities were
 
 | Probability         	|     Prediction	        					| 
 |:---------------------:|:---------------------------------------------:| 
 | .6        			| Stop sign   									| 
+
 | .20     				| U-turn 										|
 | .05					| Yield											|
+
 | .04	      			| Bumpy Road					 				|
 | .01				    | Slippery Road      							|
 
@@ -153,13 +160,19 @@ For the first image, the model is relatively sure that this is a stop sign (prob
 For the second image,  
 
 image_1.jpg:
-End of no passing: 1.000
-Speed limit (20km/h): 0.000
-Speed limit (30km/h): 0.000
-Speed limit (50km/h): 0.000
-Speed limit (60km/h): 0.000
+
+|      Prediction    	|     	Probability        					| 
+|:---------------------:|:---------------------------------------------:| 
+|End of no passing: |1.000|
+|Speed limit (20km/h): |0.000|
+|Speed limit (30km/h): |0.000|
+|Speed limit (50km/h): |0.000|
+|Speed limit (60km/h): |0.000|
 
 image_2.jpg:
+
+| Probability         	|     Prediction	        					| 
+|:---------------------:|:---------------------------------------------:| 
 Ahead only: 1.000
 Speed limit (20km/h): 0.000
 Speed limit (30km/h): 0.000
@@ -167,6 +180,9 @@ Speed limit (50km/h): 0.000
 Speed limit (60km/h): 0.000
 
 image_3.jpg:
+
+| Probability         	|     Prediction	        					| 
+|:---------------------:|:---------------------------------------------:|
 Speed limit (30km/h): 1.000
 Speed limit (20km/h): 0.000
 Speed limit (50km/h): 0.000
@@ -174,6 +190,9 @@ Speed limit (60km/h): 0.000
 Speed limit (70km/h): 0.000
 
 image_4.jpg:
+
+| Probability         	|     Prediction	        					| 
+|:---------------------:|:---------------------------------------------:|
 Bicycles crossing: 1.000
 Speed limit (20km/h): 0.000
 Speed limit (30km/h): 0.000
@@ -181,6 +200,9 @@ Speed limit (50km/h): 0.000
 Speed limit (60km/h): 0.000
 
 image_5.jpg:
+
+| Probability         	|     Prediction	        					| 
+|:---------------------:|:---------------------------------------------:|
 Road work: 1.000
 Speed limit (20km/h): 0.000
 Speed limit (30km/h): 0.000
