@@ -152,6 +152,44 @@ For the first image, the model is relatively sure that this is a stop sign (prob
 
 For the second image,  
 
+image_1.jpg:
+End of no passing: 1.000
+Speed limit (20km/h): 0.000
+Speed limit (30km/h): 0.000
+Speed limit (50km/h): 0.000
+Speed limit (60km/h): 0.000
+
+image_2.jpg:
+Ahead only: 1.000
+Speed limit (20km/h): 0.000
+Speed limit (30km/h): 0.000
+Speed limit (50km/h): 0.000
+Speed limit (60km/h): 0.000
+
+image_3.jpg:
+Speed limit (30km/h): 1.000
+Speed limit (20km/h): 0.000
+Speed limit (50km/h): 0.000
+Speed limit (60km/h): 0.000
+Speed limit (70km/h): 0.000
+
+image_4.jpg:
+Bicycles crossing: 1.000
+Speed limit (20km/h): 0.000
+Speed limit (30km/h): 0.000
+Speed limit (50km/h): 0.000
+Speed limit (60km/h): 0.000
+
+image_5.jpg:
+Road work: 1.000
+Speed limit (20km/h): 0.000
+Speed limit (30km/h): 0.000
+Speed limit (50km/h): 0.000
+Speed limit (60km/h): 0.000
+
+
+
+
 ### (Optional) Visualizing the Neural Network (See Step 4 of the Ipython notebook for more details)
 #### 1. Discuss the visual output of your trained network's feature maps. What characteristics did the neural network use to make classifications?
 
