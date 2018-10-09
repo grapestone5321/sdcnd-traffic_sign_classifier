@@ -156,8 +156,7 @@ For the first image, the model is relatively sure that this is a stop sign (prob
 | .04	      			| Bumpy Road					 				|
 | .01				    | Slippery Road      							|
 
-
-For the second image,  
+ 
 
 image_1.jpg:
 
