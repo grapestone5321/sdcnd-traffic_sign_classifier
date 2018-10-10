@@ -70,11 +70,14 @@ Here is an exploratory visualization of the data set. It is a bar chart showing 
 ![alt text][image10]
 
 
+
 ### Design and Test a Model Architecture
 
 #### 1. Describe how you preprocessed the image data. What techniques were chosen and why did you choose these techniques? Consider including images showing the output of each preprocessing technique. Pre-processing refers to techniques such as converting to grayscale, normalization, etc. (OPTIONAL: As described in the "Stand Out Suggestions" part of the rubric, if you generated additional data for training, describe why you decided to generate additional data, how you generated the data, and provide example images of the additional data. Then describe the characteristics of the augmented training set like number of images in the set, number of images for each class, etc.)
 
+
 As a first step, I decided to shuffle the training data otherwise the ordering of the data might have a huge effect on how well the network trends.
+
 
 As a last step, I normalized the image data because normalization helps the nerwork converge.
 
@@ -101,8 +104,8 @@ My final model consisted of the following layers:
  
 
 #### 3. Describe how you trained your model. The discussion can include the type of optimizer, the batch size, number of epochs and any hyperparameters such as learning rate.
-s
-aTo train the model, I used an AdamOptimizer, 20 EPOCHS, BATCH_SIZE of 128, and learning rate of 0.001.
+
+To train the model, I used an AdamOptimizer, 20 EPOCHS, BATCH_SIZE of 128, and learning rate of 0.001.
 
 
 
@@ -112,7 +115,8 @@ My final model results was validation set accuracy of 0.957.
 
 ### Test a Model on New Images
 #### 1. Choose five German traffic signs found on the web and provide them in the report. For each image, discuss what quality or qualities might be difficult to classify.
-aHere are five German traffic signs that I found on the web:
+
+Here are five German traffic signs that I found on the web:
 
 ![alt text][image11] ![alt text][image12] ![alt text][image13] 
 
