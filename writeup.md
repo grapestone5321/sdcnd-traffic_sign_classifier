@@ -112,7 +112,6 @@ My final model results was validation set accuracy of 0.957.
 
 ### Test a Model on New Images
 #### 1. Choose five German traffic signs found on the web and provide them in the report. For each image, discuss what quality or qualities might be difficult to classify.
-
 Here are five German traffic signs that I found on the web:
 
 ![alt text][image11] ![alt text][image12] ![alt text][image13] 
@@ -149,31 +148,31 @@ image_1.jpg:
 
 |      Prediction    	|     	Probability        					| 
 |:---------------------:|:---------------------------------------------:| 
-|End of no passing: |1.000|
-|Speed limit (20km/h): |0.000|
-|Speed limit (30km/h): |0.000|
-|Speed limit (50km/h): |0.000|
-|Speed limit (60km/h): |0.000|
+|End of no passing |1.000|
+|Speed limit (20km/h) |0.000|
+|Speed limit (30km/h) |0.000|
+|Speed limit (50km/h) |0.000|
+|Speed limit (60km/h) |0.000|
 
 image_2.jpg:
 
 | Prediction    	|     	Probability	        					| 
 |:---------------------:|:---------------------------------------------:| 
 |Turn right ahead |1.000|
-|Speed limit (20km/h): |0.000|
-|Speed limit (30km/h): |0.000|
-|Speed limit (50km/h): |0.000|
-|Speed limit (60km/h): |0.000|
+|Speed limit (20km/h) |0.000|
+|Speed limit (30km/h) |0.000|
+|Speed limit (50km/h) |0.000|
+|Speed limit (60km/h) |0.000|
 
 image_3.jpg:
 
 | Prediction    	|     	Probability	        					| 
 |:---------------------:|:---------------------------------------------:|
 |Keep right |1.000|
-|Speed limit (20km/h): |0.000|
-|Speed limit (30km/h): |0.000|
-|Speed limit (50km/h): |0.000|
-|Speed limit (60km/h): |0.000|
+|Speed limit (20km/h) |0.000|
+|Speed limit (30km/h) |0.000|
+|Speed limit (50km/h) |0.000|
+|Speed limit (60km/h) |0.000|
 
 
 image_4.jpg:
@@ -181,20 +180,20 @@ image_4.jpg:
 | Prediction    	|     	Probability	        					| 
 |:---------------------:|:---------------------------------------------:|
 |Turn left ahead |1.000|
-|Speed limit (20km/h): |0.000|
-|Speed limit (30km/h): |0.000|
-|Speed limit (50km/h): |0.000|
-|Speed limit (60km/h): |0.000|
+|Speed limit (20km/h) |0.000|
+|Speed limit (30km/h) |0.000|
+|Speed limit (50km/h) |0.000|
+|Speed limit (60km/h) |0.000|
 
 image_5.jpg:
 
 | Prediction    	|     	Probability	        					| 
 |:---------------------:|:---------------------------------------------:|
-|Road work: |1.000|
-|Speed limit (20km/h): |0.000|
-|Speed limit (30km/h): |0.000|
-|Speed limit (50km/h): |0.000|
-|Speed limit (60km/h): |0.000|
+|Road work |1.000|
+|Speed limit (20km/h) |0.000|
+|Speed limit (30km/h) |0.000|
+|Speed limit (50km/h) |0.000|
+|Speed limit (60km/h) |0.000|
 
 
 
