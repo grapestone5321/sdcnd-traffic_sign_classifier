@@ -131,9 +131,9 @@ Here are the results of the prediction:
 
 | Image			        |     Prediction	        					| 
 |:---------------------:|:---------------------------------------------:| 
-| Stop     		| No passing for vehicles over 3.5 metric tons  									| 
-| Yield     			| Speed limit (70km/h) 										|
-| Keep right				| Keep right									|
+| Stop     		| Priority road  									| 
+| Yield     			| Yield 										|
+| Keep right				| Turn right ahead									|
 | No entry      		| No entry					 				|
 | Priority road			| Road work     							|
 
