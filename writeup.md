@@ -131,9 +131,9 @@ Here are the results of the prediction:
 
 | Image			        |     Prediction	        					| 
 |:---------------------:|:---------------------------------------------:| 
-| Stop     		| Priority road  									| 
-| Yield     			| Yield 										|
-| Keep right				| Turn right ahead									|
+| Stop     		| End of all speed and passing limits  									| 
+| Yield     			| Speed limit (30km/h)  										|
+| Keep right				| Keep right									|
 | No entry      		| No entry					 				|
 | Priority road			| Road work     							|
 
