@@ -152,7 +152,7 @@ image_1.jpg:
 
 |      Prediction    	|     	Probability        					| 
 |:---------------------:|:---------------------------------------------:| 
-|End of no passing |1.000|
+|End of all speed and passing limits |1.000|
 |Speed limit (20km/h) |0.000|
 |Speed limit (30km/h) |0.000|
 |Speed limit (50km/h) |0.000|
@@ -162,11 +162,11 @@ image_2.jpg:
 
 | Prediction    	|     	Probability	        					| 
 |:---------------------:|:---------------------------------------------:| 
-|Turn right ahead |1.000|
+|Speed limit (30km/h) |1.000|
 |Speed limit (20km/h) |0.000|
-|Speed limit (30km/h) |0.000|
 |Speed limit (50km/h) |0.000|
 |Speed limit (60km/h) |0.000|
+|Speed limit (70km/h) |0.000|
 
 image_3.jpg:
 
@@ -183,11 +183,11 @@ image_4.jpg:
 
 | Prediction    	|     	Probability	        					| 
 |:---------------------:|:---------------------------------------------:|
-|Turn left ahead |1.000|
+|No entry |1.000|
+|Turn left ahead |0.000|
 |Speed limit (20km/h) |0.000|
 |Speed limit (30km/h) |0.000|
 |Speed limit (50km/h) |0.000|
-|Speed limit (60km/h) |0.000|
 
 image_5.jpg:
 
