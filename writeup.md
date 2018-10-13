@@ -101,7 +101,7 @@ My final model consisted of the following layers:
 |	Fully connected			|	input = 84, output = 43									|
 
 
- 
+ Some characteristics could make the images difficult to classify. 
 
 #### 3. Describe how you trained your model. The discussion can include the type of optimizer, the batch size, number of epochs and any hyperparameters such as learning rate.
 
@@ -130,9 +130,11 @@ Here are five German traffic signs that I found on the web:
 
 ![alt text][image14] ![alt text][image15]
 
+ Some characteristics could make the images difficult to classify.
+ 
+The first image might be difficult to classify because the background is bright. The second image might be difficult to classify because there are some background objects (windows). The thired image might be difficult to classify because there are some background objects. The forth image might be difficult to classify because it is taken at a bit of  an angle. The fifth image might be difficult to classify because there are some background objects.  
 
-
-
+ 
 #### 2. Discuss the model's predictions on these new traffic signs and compare the results to predicting on the test set. At a minimum, discuss what the predictions were, the accuracy on these new predictions, and compare the accuracy to the accuracy on the test set (OPTIONAL: Discuss the results in more detail as described in the "Stand Out Suggestions" part of the rubric).
 
 Here are the results of the prediction:
