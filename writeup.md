@@ -111,13 +111,20 @@ To train the model, I used an AdamOptimizer, 20 EPOCHS, BATCH_SIZE of 128, and l
 
 #### 4. Describe the approach taken for finding a solution and getting the validation set accuracy to be at least 0.93. Include in the discussion the results on the training, validation and test sets and where in the code these were calculated. Your approach may have been an iterative process, in which case, outline the steps you took to get to the final solution and why you chose those steps. Perhaps your solution involved an already well known implementation or architecture. In this case, discuss why you think the architecture is suitable for the current problem.
 
-The model is adapted from LeNet architecture because it performs well on the classification such as handwritten digits. To train the model 20 epochs, a batch size of 128 and a learning rate of 0.001 are used. And also Adamoptimizer is chosen because it works well. Then it is found that the result of the accuracy on the validation set is greater than 0.93.
-
 
 The model results were:
 - training set accuracy of 0.982
 - validation set accuracy of 0.945
 - test set accuracy of 0.890
+
+The model is adapted from LeNet architecture because it performs well on the classification such as handwritten digits.
+
+To train the model 20 epochs, a batch size of 128 and a learning rate of 0.001 are used.
+
+And also Adamoptimizer is chosen because it works well.
+
+Then it is found that the result of the accuracy on the validation set is greater than 0.93.
+
 
 
  
