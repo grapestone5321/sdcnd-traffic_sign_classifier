@@ -118,7 +118,7 @@ Firstly, the model is adapted from LeNet architecture of udacity CarND-LeNet-Lab
 
 Then a few changes are made to the LeNet architecture. First, the traffic sign images or in color not gray scale, so the input depth is chaged to three to match the three RGB color channels. Also at the output layer the traffic sign classifier has 43 classes, whereas MNIST only had 10, so that is chaged.
 
-To train the model 20 epochs, a batch size of 128 are used. And also Adamoptimizer is chosen because it is known to work well. A learning rate is explored and it is found that 0.001 performs well.
+To train the model 20 epochs, a batch size of 128 are used. And also Adamoptimizer is chosen because it is known to work well. A learning rate is explored and it is found that the rate of 0.001 performs well.
 
 The model result of training set accuracy is 0.982, and that of validation set accuracy is 0.945. So this result of a high accuracy on the training set and on the validation set is found to be just right. Generally, a high accuracy on the training set but low accuracy on the validation set indicates over fitting, and a low accuracy on both sets indicates under fitting.
 
