@@ -110,7 +110,7 @@ To train the model, I used an AdamOptimizer, 20 EPOCHS, BATCH_SIZE of 128, and l
 
 
 The model results were:
-on the training set- training set accuracy of 0.982
+- training set accuracy of 0.982
 - validation set accuracy of 0.945
 - test set accuracy of 0.890
 
