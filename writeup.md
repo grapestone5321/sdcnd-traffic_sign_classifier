@@ -117,7 +117,9 @@ The model results were:
 - validation set accuracy of 0.945
 - test set accuracy of 0.890
 
-The model is adapted from LeNet architecture because it performs well on the classification such as handwritten digits.
+Firstly, the model is adapted from LeNet architecture of udacity CarND-LeNet-Lab. It is because LeNet architecturebecause performs well on the classification such as handwritten digits.
+
+Then a few changes are made to the LeNet architecture. First, the traffic sign images or in color not gray scale, so the input depth is chaged to three to match the three RGB color channels. Also at the output layer the traffic sign classifier has 43 classes, whereas MNIST only had 10, so that is chaged.
 
 To train the model 20 epochs, a batch size of 128 and a learning rate of 0.001 are used.
 
