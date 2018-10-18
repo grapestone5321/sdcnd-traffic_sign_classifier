@@ -70,17 +70,14 @@ Here is an exploratory visualization of the data set. It is a bar chart showing 
 ![alt text][image10]
 
 
-
-### Design and Test a Model Architecture
+a high accuracy ### Design and Test a Model Architecture
 
 #### 1. Describe how you preprocessed the image data. What techniques were chosen and why did you choose these techniques? Consider including images showing the output of each preprocessing technique. Pre-processing refers to techniques such as converting to grayscale, normalization, etc. (OPTIONAL: As described in the "Stand Out Suggestions" part of the rubric, if you generated additional data for training, describe why you decided to generate additional data, how you generated the data, and provide example images of the additional data. Then describe the characteristics of the augmented training set like number of images in the set, number of images for each class, etc.)
-
 
 As a first step, I decided to shuffle the training data otherwise the ordering of the data might have a huge effect on how well the network trends.
 
 
 As a last step, I normalized the image data because normalization helps the nerwork converge.
-
 #### 2. Describe what your final model architecture looks like including model type, layers, layer sizes, connectivity, etc.) Consider including a diagram and/or table describing the final model.
 
 My final model consisted of the following layers:
@@ -101,10 +98,9 @@ My final model consisted of the following layers:
 |	Fully connected			|	input = 84, output = 43									|
 
 
- Some characteristics could make the images difficult to classify. 
+Some characteristics could make the images difficult to classify. 
 
 #### 3. Describe how you trained your model. The discussion can include the type of optimizer, the batch size, number of epochs and any hyperparameters such as learning rate.
-
 To train the model, I used an AdamOptimizer, 20 EPOCHS, BATCH_SIZE of 128, and learning rate of 0.001.
 
 
@@ -113,7 +109,7 @@ To train the model, I used an AdamOptimizer, 20 EPOCHS, BATCH_SIZE of 128, and l
 
 
 The model results were:
-- training set accuracy of 0.982
+on the training set- training set accuracy of 0.982
 - validation set accuracy of 0.945
 - test set accuracy of 0.890
 
@@ -121,11 +117,11 @@ Firstly, the model is adapted from LeNet architecture of udacity CarND-LeNet-Lab
 
 Then a few changes are made to the LeNet architecture. First, the traffic sign images or in color not gray scale, so the input depth is chaged to three to match the three RGB color channels. Also at the output layer the traffic sign classifier has 43 classes, whereas MNIST only had 10, so that is chaged.
 
-To train the model 20 epochs, a batch size of 128 and a learning rate of 0.001 are used.
+To train the model 20 epochs, a batch size of 128 are used. And also Adamoptimizer is chosen because it is known to work well. A learning rate is explored and it is found that 0.001 performs well.
 
-And also Adamoptimizer is chosen because it works well.
+The model result of training set accuracy is 0.982, and that of validation set accuracy is 0.945. This result of a high accuracy on the training set and on the validation set ie found to be jusu right. Generally, a high accuracy on the training set but low accuracy on the validation set indicates over fitting, and a low accuracy on both sets indicates under fitting.
 
-Then it is found that the result of the accuracy on the validation set is greater than 0.93.
+
 
 
 
